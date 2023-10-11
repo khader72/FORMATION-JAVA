@@ -1,9 +1,11 @@
 //Definir le nom de la class HelloWorld et la rendre public
-public class HelloWord {//Debut class
+public class Operation {//Debut class
     //Definir le nom de la methode principal et la rendre public
     public static void main(String[] args) {//Debut methode
         //Afficher un la moyenne
-        double x = moyenne(2,6);
+        double x = Operation.moyenne(2,6);
+        //Operation monoperation = new Operation();
+        //monoperation.moyenne(4,10);
         age(24);
     }
     

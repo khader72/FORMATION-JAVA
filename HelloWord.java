@@ -2,7 +2,7 @@
 // Use this editor to write, compile and run your Java code online
 
 //Definir le nom de la class HelloWorld et la rendre public
-public class Operation {//Debut class
+public class HelloWord {//Debut class
     //Definir le nom de la methode principal et la rendre public
     public static void main(String[] args) {//Debut methode
         //Afficher un message  AKWABA, World!

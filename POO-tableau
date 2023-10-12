@@ -1,0 +1,45 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Employe {
+    
+    private String nom;
+    private int age;
+    float salaire;
+    //Contructeur par defaut
+    public Employe(){
+        
+    }
+    public Employe(String nom,int age, float salaire){
+        this.nom=nom;
+        this.age = age;
+        this.salaire=salaire;
+    }
+    
+    //methode
+    
+    public void afficherSalaire(){
+        System.out.println("Le salaire de l'employe est de "+ salaire);
+    }
+    
+    
+}//Fin class Employe
+
+class Programme{
+    public static void main(String[] args){
+        //Creation du salaire
+        Employe employe1 = new Employe("John Doe",30,3750000);
+        Employe employe2 = new Employe("John Dak",30,500000);
+        Employe[] tableauemp = {employe1,employe2};
+        //tableauemp[0] = employe1;
+        
+        for(Employe emp :tableauemp){
+            System.out.println("Le salaire de l'employe est de "+ emp.salaire);
+            System.out.println("Je veux afficher le quartieme "+tableauemp[0]);
+        }
+
+        
+        //Affichage du salire
+        
+    }
+}
